@@ -30,12 +30,12 @@ body {
 
   align-content: center;
 
-  min-height: 100vh;
+  min-height: 110vh;
  
 
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: repeat(4, 110px);
 
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  grid-template-rows: minmax(125px, auto) repeat(5, 110px);
 
 }
 
@@ -59,7 +59,7 @@ body {
 
 .calculator-grid > button:hover {
 
-  background-color: pink;
+  background-color: red;
 
 }
 
